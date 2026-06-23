@@ -1,0 +1,185 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://iiif-test.github.io/June-2026/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Glen's fantastic manifest " ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Author" ]
+    },
+    "value" : {
+      "en" : [ "Glen Robson" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Description" ]
+    },
+    "value" : {
+      "en" : [ "This is a collection of images" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/jg0p55tzdjn-mqqhe2de/canvas/ioikr02ryt-mqqhi8pr",
+    "type" : "Canvas",
+    "height" : 3024,
+    "width" : 4032,
+    "label" : {
+      "en" : [ "Page 1" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Location" ]
+      },
+      "value" : {
+        "en" : [ "Victoria" ]
+      }
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/img-8664_202009%2fIMG_8664.jpg/full/504,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 378,
+      "width" : 504
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/jg0p55tzdjn-mqqhe2de/canvas/ioikr02ryt-mqqhi8pr/annotation-page/w18xuyrw8ls-mqqhi8pr",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/jg0p55tzdjn-mqqhe2de/annotation/j0iae5zp0r-mqqhi8pq",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/jg0p55tzdjn-mqqhe2de/canvas/ioikr02ryt-mqqhi8pr",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/img-8664_202009%2fIMG_8664.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3024,
+          "width" : 4032,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/img-8664_202009%2fIMG_8664.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 4032,
+            "height" : 3024,
+            "sizes" : [ {
+              "width" : 126,
+              "height" : 95
+            }, {
+              "width" : 252,
+              "height" : 189
+            }, {
+              "width" : 504,
+              "height" : 378
+            }, {
+              "width" : 1008,
+              "height" : 756
+            }, {
+              "width" : 2016,
+              "height" : 1512
+            }, {
+              "width" : 4032,
+              "height" : 3024
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 12192768,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/jg0p55tzdjn-mqqhe2de/canvas/861c1u07a3b-mqqhjvcj",
+    "type" : "Canvas",
+    "height" : 2613,
+    "width" : 4658,
+    "label" : {
+      "en" : [ "Page 2" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/291,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 163,
+      "width" : 291
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/jg0p55tzdjn-mqqhe2de/canvas/861c1u07a3b-mqqhjvcj/annotation-page/0yzybdd0bl9b-mqqhjvcj",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/jg0p55tzdjn-mqqhe2de/annotation/d5ym4r9zud4-mqqhjvcj",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/jg0p55tzdjn-mqqhe2de/canvas/861c1u07a3b-mqqhjvcj",
+        "body" : {
+          "id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2613,
+          "width" : 4658,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848",
+            "height" : 2613,
+            "metadata" : {
+              "caption" : "recto, cropped to image",
+              "source" : "Yale Center for British Art",
+              "imageCredit" : "Digital Image: Yale Center for British Art"
+            },
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "height" : 82,
+              "width" : 146
+            }, {
+              "height" : 163,
+              "width" : 291
+            }, {
+              "height" : 327,
+              "width" : 582
+            }, {
+              "height" : 653,
+              "width" : 1165
+            }, {
+              "height" : 1307,
+              "width" : 2329
+            }, {
+              "height" : 2613,
+              "width" : 4658
+            } ],
+            "tiles" : [ {
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ],
+              "width" : 512
+            } ],
+            "width" : 4658
+          } ]
+        }
+      } ]
+    } ]
+  } ],
+  "navPlace" : {
+    "type" : "FeatureCollection",
+    "features" : [ {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ -124.227905, 48.808009 ]
+      }
+    } ]
+  }
+}
