@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 34,
+    "height" : 23
+  }, {
+    "width" : 68,
+    "height" : 45
+  }, {
+    "width" : 135,
+    "height" : 90
+  }, {
+    "width" : 270,
+    "height" : 180
+  }, {
+    "width" : 540,
+    "height" : 360
+  }, {
+    "width" : 1080,
+    "height" : 720
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1080,
+  "@id" : "https://iiif-test.github.io/June-2026/images/background_zoom",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 720
+}
