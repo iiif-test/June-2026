@@ -17,5 +17,11 @@
       "en" : [ "Glen's fantastic manifest " ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://iiif-test.github.io/June-2026/manifests/manifest3.json",
+    "label" : {
+      "en" : [ "Glen's fantastic manifest " ]
+    },
+    "type" : "Manifest"
   } ]
 }
