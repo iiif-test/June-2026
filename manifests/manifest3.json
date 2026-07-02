@@ -232,7 +232,12 @@
             } ]
           } ]
         }
-      } ]
+      } ],
+      "annotations": 
+         {
+          "id": "https://iiif-test.github.io/June-2026/annotations/page3.json",
+          "type": "AnnotationPage"
+        }
     } ]
   } ],
   "navPlace" : {
