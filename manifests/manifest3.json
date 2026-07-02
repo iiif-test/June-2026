@@ -185,6 +185,11 @@
       "height" : 510,
       "width" : 510
     } ],
+      "annotations": 
+         {
+          "id": "https://iiif-test.github.io/June-2026/annotations/page3.json",
+          "type": "AnnotationPage"
+        },
     "items" : [ {
       "id" : "https://example.org/jg0p55tzdjn-mqqhe2de/canvas/8voszl9lpce-mqrdp6n8/annotation-page/pb4aelkzse-mqrdp6n8",
       "type" : "AnnotationPage",
@@ -232,12 +237,7 @@
             } ]
           } ]
         }
-      } ],
-      "annotations": 
-         {
-          "id": "https://iiif-test.github.io/June-2026/annotations/page3.json",
-          "type": "AnnotationPage"
-        }
+      } ]
     } ]
   } ],
   "navPlace" : {
