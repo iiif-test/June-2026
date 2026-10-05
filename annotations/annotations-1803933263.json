@@ -1,0 +1,30 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://iiif-test.github.io/June-2026/annotations/annotations-1803933263.json",
+  "type" : "AnnotationPage",
+  "items" : [ {
+    "id" : "2842a932-81ce-4ce3-a73a-abcfa56429f1",
+    "target" : {
+      "source" : "https://damsssl.llgc.org.uk/iiif/2.0/4389767/canvas/4389768.json",
+      "type" : "SpecificResource",
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=590,891,2152,1542"
+      }
+    },
+    "@context" : "http://www.w3.org/ns/anno.jsonld",
+    "type" : "Annotation",
+    "body" : {
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<div><p>Cardiganshire Constabulary</p></div>"
+    },
+    "created" : "2026-01-27T15:23:56.395Z",
+    "creator" : {
+      "isGuest" : true,
+      "id" : "mhGr4bb4nhUrA7uXNHch"
+    },
+    "motivation" : "commenting"
+  } ]
+}
