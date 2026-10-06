@@ -1,6 +1,6 @@
-{
+Ï{
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://iiif-test.github.io/June-2026/annotations/page3.json", "https://iiif-test.github.io/June-2026/annotations/annotations-652943758.json", "https://iiif-test.github.io/June-2026/annotations/annotations-1312088300.json", "https://iiif-test.github.io/June-2026/annotations/annotations-1448412063.json", "https://iiif-test.github.io/June-2026/annotations/annotations-1803933263.json" ],
+  "otherContent" : [ "https://iiif-test.github.io/June-2026/annotations/page3.json" ],
   "@id" : "https://iiif-test.github.io/June-2026/annotations/collection.json",
   "label" : "All annotations loaded in iiif-test/June-2026 project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
