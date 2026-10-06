@@ -23,5 +23,11 @@
       "en" : [ "Glen's fantastic manifest " ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://iiif-test.github.io/June-2026/manifests/manifest_immarkus.json",
+    "label" : {
+      "none" : [ "Cardiganshire Constabulary register of criminals (annotated with IMMARKUS)" ]
+    },
+    "type" : "Manifest"
   } ]
 }
